@@ -33,7 +33,7 @@ width: 200px;
 
 }
 
-#firstPage{
+#firstPage, h1{
 margin-top:40px;
 font-family:Calibri;
 font-size:40px;
@@ -41,7 +41,7 @@ color:black;
 font-weight: lighter; 
 
 }
-#explain{
+#explain, p{
 font-size:15px; 
 font-family: 'Open Sans',arial,sans-serif;
 color:#666;
