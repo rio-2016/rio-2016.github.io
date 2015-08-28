@@ -1,11 +1,86 @@
-<!DOCTYPE html>
+<!DOCTYPE>
 <html>
-    <head>
-        <title>Hackathon Paralímpico - Dados</title>
-    </head>
-    <body>
-        <h1>Hackathon Paralímpico - Dados</h1>
-        <p>IPC database:</p>
-        <p>Material de pesquisa:</p>
-    </body>
+<head>
+	<meta http-equiv='content-type' content='text/html; charset=UTF-8'>
+
+	<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.4.4/jquery.min.js"></script>
+	<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
+
+	<script type="text/javascript" src="js/jquery-ui-1.9.2.custom.js"></script>
+	
+	<link href="css/EZ-Dash.css" media="screen" rel="stylesheet" type="text/css" />
+	<link rel="stylesheet" type="text/css" href="css/EZ-Dash.css" media="screen" />
+ 	<link rel="stylesheet" href="css/jquery-ui.css" />
+
+    <title>Hackathon Paralímpico - Dados</title>
+
+  <script src="https://www.google.com/jsapi"></script>
+  <script src="gadash-1.0.js"></script>
+  <script src="https://apis.google.com/js/client.js?onload=gadashInit"></script>
+    
+
+</head>
+
+<body>
+
+
+	<!-- TOPMOST PART :: images + authorization/logout -->
+	<table width="80%" style="margin:auto; border-bottom: 1px solid #e8e8e8; ">
+		<tr>
+			<td align="left">
+				
+					<img id="cover-image" src="images/rio2016_cropped.png"/>
+				
+			</td>
+			<td align="right">
+				<div id='gadash-auth'></div>
+			</td>
+		</tr>
+	</table>
+		
+	<div id="header" style="width:80%;margin:auto;">
+
+		<table width="100%">
+			<tr>
+				<td align="left"><div id="osama"></div>
+					<div>  
+
+
+
+				</td>
+				<td align="center" id='gadash-auth'>
+					<!-- Add Google Analytics authorization button -->
+    			</td>
+				<td align="right" style="padding-right:15px">
+
+						<!--		 Date Picker 		-->
+
+						<div align="right"><input type="radio" id="lastNFunctionRadio" name="date" value="date"> 
+										<span id="LastText" style="color:black; font-family:arial,sans-serif;;font-size:15px">Último(a)(s):</span> 
+									<input type="text" size="3" id ="numberOfX" >
+
+
+
+					<input type="radio" id="datePickerRadio" name="date" value="lastN"> 
+							<input type="text" id="from_date" name="from" size="13" value="Data inicial"/>
+							<label for="a"><span id="toSpan"style="color:black; font-family:arial,sans-serif;;font-size:15px">to</span></label>
+							<input type="text" id="to_date" name="to" size="13" value="Data final"/>
+						</div>
+
+						<!-- 		/Date Picker 		-->
+					</div>
+				</td>
+			</tr>
+		</table>
+	</div>
+	<div align="center" id="firstPage">Hackathon Paralímpico - Dados Rio 2016<br/>
+       </div><span id="explain" ><center>Web analytics e dados de mídias sociais (Facebook, Twitter, Instagram, Google+).</center>	<br/><br/></span> 
+
+
+
+	
+
+	
+</body>
+
 </html>
